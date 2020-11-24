@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	box-sizing: border-box;		
+}
+html, body{
+	height: 100%;
+	width: 100%;	
+}
+body{	
+	width: 100%;
+	height: 100%;		
+	background-color: silver;	
+}
+header, footer{
+	width: 100%;
+	height: 10%;
+	display: block;				
+	display: flex;
+	align-items: center;
+	float: right;		
+}
+h1{
+	margin: auto;
+}
+div.cuerpo{
+	height: 76%;
+	width: 100%;
+}
+table{
+	border-collapse: collapse;
+	border: darkslateblue;
+	background-color: salmon;
+	width: 100%;
+	height: 100%;
+	display: block;				
+	float: left;
+}
+thead{
+	width: 100%;
+	height: 15%;
+	display: block;
+	text-align: center;
+	overflow-y: scroll;
+	background-color: turquoise;
+}
+tbody{
+	display: block;	
+	height: 85%;
+	width: 100%;
+	background-color: salmon;
+	overflow-y: scroll;
+	text-align: center;
+}
+tr{
+	display: block;	
+	overflow: hidden;		
+}
+footer{
+	display: block;
+}
+div.interno{
+	display: block;
+}
+form.cliente{
+	height: 100%;
+	width: 100%;
+}
+td{
+	float: left;
+}
+th{
+	float: left;					
+	display: flex;
+	box-sizing: border-box;	
+	justify-content: center;
+	align-items: center;
+	padding: .5em;	
+}
+tbody tr:nth-child(odd){
+	background-color: firebrick;
+}
+tbody tr:nth-child(even){
+	background-color: indianred;	
+}
+thead th, tfoot th{		
+	background-color: lightblue;
+	border: 1px solid black;
+}
+tbody tr:hover{
+	background-color: lightsalmon;
+	color: white;		
+}	
+[campo='Detalle']{
+	width: 20%;	
+	height: 90px;
+	cursor: pointer;
+	border: solid 1px black;
+	border-collapse: collapse;			
+}
+[campo='Nombre']{
+	width: 10%;	
+	height: 90px;
+	cursor: pointer;
+	border: solid 1px black;
+	border-collapse: collapse;			
+}
+[campo='Descripcion']{
+	width: 15%;	
+	height: 90px;
+	cursor: pointer;
+	border: solid 1px black;
+	border-collapse: collapse;
+}
+[campo='Numero']{
+	width: 10%;	
+	height: 90px;
+	cursor: pointer;
+	border: solid 1px black;
+	border-collapse: collapse;
+}
+[campo='Imagen']{
+	width: 15%;	
+	height: 90px;
+	cursor: pointer;
+	border: solid 1px black;
+	border-collapse: collapse;	
+}
+[campo='Pedido']{
+	width: 15%;	
+	height: 90px;
+	cursor: pointer;
+	border: solid 1px black;
+	border-collapse: collapse;	
+}
+input.boton, a.boton{
+	border: solid black 1px;
+	background: white;
+	height: 30px;
+	width: 150px;
+	text-align: center;
+	margin: auto;
+	border-radius: 15px;	
+	justify-content: center;	
+	position: relative;
+	left: 20%;
+}
+input.pedido{
+	border: solid 1px black;
+	border-collapse: collapse;
+}
+select{
+	position: relative;
+	left: 20%;
+}
+img{		
+	max-width: 120px;
+	max-height: 90px;	
+}
+div.contenedor{
+	width: 100%;
+	height: 100%;		
+	background-color: silver;
+	pointer-events:	auto;
+	opacity: 1;
+}

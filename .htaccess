@@ -1,0 +1,15 @@
+# archivo .htaccess
+
+RewriteEngine on
+
+RewriteRule ^alta-cliente$ controllers/altacliente.php
+RewriteRule ^alta-producto$ controllers/altaproducto.php
+RewriteRule ^carrito$ controllers/carritoanterior.php
+RewriteRule ^confirmar-pedido$ controllers/confirmacionpedido.php
+RewriteRule ^consulta-prouctos$ controllers/consultaproductos.php
+RewriteRule ^listado-pedidos$ controllers/listadopedidos.php
+RewriteRule ^login$ controllers/login.php
+RewriteRule ^logout$ controllers/logout.php
+RewriteRule ^modificar-producto$ controllers/modificarproducto.php
+RewriteRule ^nuevo-pedido$ controllers/nuevopedido.php
+

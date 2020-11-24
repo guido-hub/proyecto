@@ -1,0 +1,49 @@
+html{
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	box-sizing: border-box;
+}
+html{
+	background-color: aquamarine;
+}
+label, select{
+	display: inline-block;
+		width: 150px;
+}		
+div.contenedor{
+	border: solid 1px black;
+	border-radius: 15px;
+	width: 400px;
+	height: 300px;			
+}
+div.contenedor, img{
+	border-radius: 25px;
+	background-color: white;
+}
+img{			
+	display: flex;			
+	margin: auto;
+	max-width: 400px;
+	max-height: 300px;
+	height: auto;
+	width: auto;			
+}
+div.bloque{
+	position: relative;
+	left: 5%;	
+	display: block;
+	float: left;
+	width: 45%;
+	height: 300px;
+}
+div.footer{			
+	padding-left: 5%;			
+	display: block;
+	width: 500px;
+}
+h1, h2{
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+}	
